@@ -42,7 +42,6 @@ def bmContourPlot(var, lats, lons, figName, figTitle):
     m.drawcoastlines(linewidth=2)
     m.drawcountries(linewidth=2)
     m.drawstates(color='r')
-    m.drawcounties(color='darkred')
     m.drawparallels(np.arange(latLow,latHigh+1,20.), 
                     labels=[True,False,False,False])
     m.drawmeridians(np.arange(lonLow,lonHigh+1,60.),
