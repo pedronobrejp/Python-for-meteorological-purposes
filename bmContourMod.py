@@ -32,7 +32,9 @@ def bmContourPlot(var, lats, lons, figName, figTitle):
     latHigh = lats[-1]
     lonLow  = lons[0]
     lonHigh = lons[-1]
-    
+#-----------------------
+# plt.figure is optional
+#-----------------------
     plt.figure(figsize=(8,8))
       
     m = Basemap(projection='mill',
