@@ -44,7 +44,7 @@ m.drawmeridians(np.arange(-50,-30,5),labels=[0,0,0,1])
 m.drawparallels(np.arange(-20,0,5),labels=[1,0,0,0])
 
 m.streamplot(x,y,udat,vdat,linewidth=2,density=2,color='black')
-m.contourf(x,y,tdat,11,cmap=plt.cm.RdBu)
+m.contourf(x,y,tdat,11,cmap=plt.cm.seismic)
 m.colorbar()
 
 plt.title('SCM 14/01/2017',\
