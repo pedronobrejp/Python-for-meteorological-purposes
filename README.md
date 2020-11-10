@@ -1,6 +1,6 @@
 # Python-for-meteorological-purposes
 
-Repository for meteorological data analysis
+Repository for meteorological data analysis.
 
 # About the scripts
 
